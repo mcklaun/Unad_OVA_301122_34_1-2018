@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html class="no-js" lang="es">
   <head>
@@ -154,6 +155,147 @@
       <aside> <a href="https://www.unad.edu.co/"><img src="../img/unad.jpg" alt=""></a>
         <br>
         <br>
+=======
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Diseño del Modelo Relacional</title>
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"> -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+
+      rel="stylesheet">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/prefixfree.js"></script>
+    <script src="../js/modernizr.js"></script>
+    <script src="../js/scrip.js"></script>
+    <script src="../js/tomhorfec.js"></script>
+    <script src="../js/tomhor.js"></script>
+    <!--script Cronologia de Twitter UNAD -->
+    <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!--Fin script  Cronologia de Twitter UNAD-->
+    <!--Icono unad para el titulo-->
+     <link rel="icon" href="../img/logo_unad.gif.png">
+  </head>
+  <body>
+    <header>
+      <div id="logo-izq"></div>
+      <h1>OVI. Administracion de Base de Datos</h1>
+      <div id="logo-der"></div>
+    </header>
+    <nav id="navbar">
+      <ul id="lista-ppal">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../html/lectura.html">Lecturas</a>
+          <ul>
+            <li><a href="../html/SGBD.html" alt="">Introduccion a SGBD</a></li>
+            <li><a href="../html/intmodrel.html" alt="">Introduccion al Modelo
+                Relacional</a></li>
+            <li><a href="../html/digmodrel.html" alt="">Diseño del Modelo
+                Relacional</a></li>
+            <li><a href="#" alt="">Introduccion a SQL</a></li>
+            <li><a href="#" alt="">Explicacion de Sub-lenguajes SQL - LMD, LDD,
+                LCD</a></li>
+          </ul>
+        </li>
+        <li><a href="multimedia.html">Multimedia</a>
+          <ul>
+            <li><a href="#" alt="">Introduccion a SGBD y Modelo Relacional</a></li>
+            <li><a href="#" alt="">Instalacion de MySQL y Creacion de Modelo
+                Relacional</a></li>
+          </ul>
+        </li>
+        <li><a href="actividades.html">Actividades</a>
+          <ul>
+            <li><a href="#" alt="">Actividad1</a></li>
+            <li><a href="#" alt="">Actividad2</a></li>
+            <li><a href="#" alt="">Actividad3</a></li>
+          </ul>
+        </li>
+        <li><a href="autores.html">Autores</a></li>
+      </ul>
+      <ul id="lista-nav">
+        <li><a href="#">
+            <div id="atras"></div>
+          </a><br>
+        </li>
+        <li><a href="#">
+            <div id="siguiente"></div>
+          </a><br>
+        </li>
+      </ul>
+    </nav>
+    <main id="content">
+      <div id="redes"> <a href="http://twitter.com/UniversidadUNAD"><img src="../svg/gorjeo.svg"
+
+            alt="Twiter UNAD"></a> <a href="https://www.facebook.com/UniversidadUNAD"><img
+
+            src="../svg/facebook.svg" alt="Facebook UNAD"></a> <a href="http://www.youtube.com/universidadunad"><img
+
+            src="../svg/youtube.svg" alt="Youtube UNAD"></a> <a href="https://www.flickr.com/photos/universidadunad"><img
+
+            src="../svg/flickr.svg" alt="Flickr UNAD"></a> <a href="https://www.instagram.com/universidadunad/"><img
+
+            src="../svg/instagram.svg" alt="Instagram UNAD"></a> </div>
+      <section id="principal">
+        
+
+ <h2 style = "color:blue;"> <font face="Cambria"> Diseño del Modelo Relacional </font></h2>
+        
+
+<style>
+
+.justifier
+
+{
+  text-align: justify;
+
+}
+
+</style> <title> </title>
+
+
+
+
+<p class = "justifier" > Estimado (a) estudiante, le damos una grata la bienvenida al Objeto Virtual de Información (OVI), donde se abordaran los temas propuestos  para el curso administración de base de datos, donde le daremos una breve introducción y las generalidades, esperamos que el curso y los temas contenidos en este sean de su agrado. También podremos a su disposición referencias para que el tema sea entendible y ameno.  </p>   
+<p class = "justifier" > El diseño de una base de datos radica en detallar la organización de los datos que deben poseer un sistema de información específico. Para esto se siguen unas pautas el proceso de diseño, donde se define un modelo conceptual, el lógico y el físico. </p>   
+<p class = "justifier" > En el diseño conceptual se hacen descripciones en la estructura de la base de datos, independientemente del SGBD  que se vaya a utilizar para manipularla. Su objetivo es describir el contenido de información de la base de datos y no las estructuras de almacenamiento que se necesitarán para manejar dicha información. . </p>   
+
+<p class = "justifier" > El diseño lógico parte del resultado del diseño conceptual y da como resultado una descripción de la estructura de la base de datos en términos de las estructuras de datos que puede procesar un tipo de SGBD. El diseño lógico depende del tipo de SGBD que se vaya a utilizar, se adapta a la tecnología que se debe emplear, pero no depende del producto concreto. </p>   
+
+<p class = "justifier" > El diseño físico parte del lógico y da como resultado una descripción de la implementación de una base de datos en memoria secundaria: las estructuras de almacenamiento y los métodos utilizados para tener un acceso eficiente a los datos. Aquí el objetivo es conseguir una mayor eficiencia, y se tienen en cuenta aspectos concretos del SGBD sobre el que se vaya a implementar. </p>   
+
+
+
+
+
+ <link rel="stylesheet" href="../css/Estilos.css">
+<div div style="text-align: center"; class= "Caja"> 
+<td>  <img id="Fotos" src="../img/conversion_tables.png" width = "600" height = "300"/>  </td></div>
+      
+      
+       <p class = "justifier" ><br>
+Ilustración No.3  “ Diseño del Modelo Relacional ”  – Recuperado de: http://ict.udlap.mx/people/carlos/is341/bases03.html/</br>
+</p>
+
+      </div>
+      <div style="text-align: center;"> <iframe scrolling="auto" src="https://www.fdi.ucm.es/profesor/fernan/MTIG_/Tema%202%20Dise%C3%B1o.pdf" frameborder="0" height="800" width="800" align="left|right|middle" ></iframe> </div>
+
+
+
+      </section>
+      <aside> <a href="https://www.unad.edu.co/"><img src="../img/unad.jpg" alt=""></a>
+        <br>
+        <br>
+>>>>>>> pr/3
         <button onclick="location.href='https://campus0a.unad.edu.co/campus0/login/index.php'">Ingreso
           al Campus Virtual</button> <br>
         <br>
@@ -163,10 +305,12 @@
         <p>204226</p>
         <br>
         <div style="text-align:center;padding:1em 0;">
-          <h2><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/3687925"><span
+          <h2><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/3687925"><span
+
                 style="color:gray;">Hora actual en</span><br>
               Cali, Colombia</a></h2>
-          <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&amp;size=large&amp;timezone=America%2FBogota"
+          <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&amp;size=large&amp;timezone=America%2FBogota"
+
             seamless="" height="140" frameborder="0" width="100%"></iframe> </div>
         <br>
         <!--Widget -  Cronologia de Twitter UNAD -->
@@ -174,6 +318,7 @@
           <p>Lo invitamos a que nos sigas y te enteres de las últimas noticias,
             eventos e información que proporciona la UNAD</p>
           <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD">Tweets
+<<<<<<< HEAD
             by @UniversidadUNAD</a> </div>
         <br>
         <h3>Visitas</h3>
@@ -366,6 +511,8 @@
         <br>
         <!--Widget -  Cronologia de Twitter UNAD -->
         <div id="twitterUNAD"> <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD">Tweets
+=======
+>>>>>>> pr/3
             by @UniversidadUNAD</a> </div>
         <br>
         <h3>Visitas</h3>
@@ -383,4 +530,7 @@
     </main>
   </body>
 </html>
+<<<<<<< HEAD
 >>>>>>> Carlos
+=======
+>>>>>>> pr/3

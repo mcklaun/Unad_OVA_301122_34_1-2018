@@ -4,7 +4,8 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Instalaci√≥n y Configuraci√≥n Mysql - Workbench - Modelo Relacional</title>
+    <title>Explicacion de Sub-lenguajes SQL - LMD, LDD,
+                LCD</title>
     <!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"> -->
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -25,48 +26,42 @@
     <!--script Cronologia de Twitter UNAD -->
     <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <!--Fin script  Cronologia de Twitter UNAD-->
-    <!--Icono unad para el titulo-->
-     <link rel="icon" href="../img/logo_unad.gif.png">
   </head>
   <body>
     <header>
       <div id="logo-izq"></div>
-      <h1>OVI. Administracion de Base de Datos</h1>
+      <h1>OVA. Administracion de Base de Datos</h1>
       <div id="logo-der"></div>
     </header>
     <nav id="navbar">
       <ul id="lista-ppal">
         <li><a href="../index.html">Inicio</a></li>
-
-        <li><a href="">Lecturas</a>
+        <li><a href="../lecturas.html">Lecturas</a>
           <ul>
             <li><a href="../html/SGBD.html" alt="">Introduccion a SGBD</a></li>
             <li><a href="../html/intmodrel.html" alt="">Introduccion al Modelo Relacional</a></li>
-            <li><a href="../html/digmodrel.html" alt="">Dise√±o del Modelo Relacional</a></li>
-          <li><a href="../html/intSQL.html" alt="">Introduccion a SQL</a></li>
+            <li><a href="../html/digmodrel.html" alt="">DiseÒo del Modelo Relacional</a></li>
+           <li><a href="../html/intSQL.html" alt="">Introduccion a SQL</a></li>
             <li><a href="../html/ExplicaSub.html" alt="">Explicacion de Sub-lenguajes SQL - LMD, LDD,
                 LCD</a></li>
 
-
           </ul>
         </li>
-
         <li><a href="multimedia.html">Multimedia</a>
           <ul>
-          	<li><a href="">Videos:Introduccion a SGBD,Modelo Relacional y Estructura</a></li>
-            <li><a href="">Videos:Instalaci√≥n y Configuraci√≥n Mysql - Workbench - Modelo Relacional</a></li>
-           </ul>
+            <li><a href="#" alt="">Introduccion a SGBD y Modelo Relacional</a></li>
+            <li><a href="#" alt="">Instalacion de MySQL y Creacion de Modelo
+                Relacional</a></li>
+          </ul>
         </li>
-
-        <li><a href="">Actividades</a>
+        <li><a href="actividades.html">Actividades</a>
           <ul>
             <li><a href="#" alt="">Actividad1</a></li>
             <li><a href="#" alt="">Actividad2</a></li>
             <li><a href="#" alt="">Actividad3</a></li>
           </ul>
         </li>
-
-        <li><a href="../autores.html">Autores</a></li>
+        <li><a href="autores.html">Autores</a></li>
       </ul>
       <ul id="lista-nav">
         <li><a href="#">
@@ -91,11 +86,10 @@
             src="../svg/flickr.svg" alt="Flickr UNAD"></a> <a href="https://www.instagram.com/universidadunad/"><img
 
             src="../svg/instagram.svg" alt="Instagram UNAD"></a> </div>
-
       <section id="principal">
 
-    
-       <h2 style = "color:blue;"> <font face="Cambria"> Explicaci√≥n de Sub-Lenguajes SQUL-LMD, LDD, LCD</font></h2>
+        
+       <h2 style = "color:blue;"> <font face="Cambria"> ExplicaciÛn de Sub-Lenguajes SQUL-LMD, LDD, LCD </font></h2>
         
 <style>
 
@@ -108,23 +102,27 @@
 
 </style> <title> </title>
 
-<p class = "justifier" > Estimado (a) estudiante, le damos una grata la bienvenida al Objeto Virtual de Informaci√≥n (OVI), donde se abordaran los temas propuestos  para el curso administraci√≥n de base de datos, donde le daremos una breve introducci√≥n y las generalidades, esperamos que el curso y los temas contenidos en este sean de su agrado. Tambi√©n podremos a su disposici√≥n referencias para que el tema sea entendible y ameno.  </p>   
-<p class = "justifier" > En las sesiones se encuentran contenidos donde le explicaran una breve introducci√≥n de cada concepto de los lenguajes y sus sentencias SQL, al mismo tiempo la administraci√≥n de una base de datos en el gestor de base de datos SQL Server, por medio de las sentencias LCD, LDD y LMD y la administraci√≥n de seguridad. </p>   
+<p class = "justifier" >  <p class = "justifier" > Estimado (a) estudiante, le damos una grata la bienvenida al Objeto Virtual de InformaciÛn (OVI), donde se abordaran los temas propuestos  para el curso administraciÛn de base de datos, donde le daremos una breve introducciÛn y las generalidades, esperamos que el curso y los temas contenidos en este sean de su agrado. TambiÈn podremos a su disposiciÛn referencias para que el tema sea entendible y ameno.  </p>  
 
-<p class = "justifier" > SQL (DDL, DML, DCL Y TCL):  DDL (Data Definition Language): Permite crear y modificar la estructura de una base de datos. DML (Data Manipulation Language): Permite recuperar, almacenar, modificar, eliminar, insertar y actualizar datos de una base de datos. DCL (Data Control Language): Permite crear roles, permisos e integridad referencial, as√≠ como el control al acceso a la base de datos. TCL (Transactional Control Language): Permite administrar diferentes transacciones que ocurren dentro de una base de datos. </p>   
+<p class = "justifier" > En las sesiones se encuentran contenidos donde le explicaran una breve introducciÛn de cada concepto de los lenguajes y sus sentencias SQL, al mismo tiempo la administraciÛn de una base de datos en el gestor de base de datos SQL Server, por medio de las sentencias LCD, LDD y LMD y la administraciÛn de seguridad. </p>   
 
-        
-      <link rel="stylesheet" href="../css/Estilos.css">
+<p class = "justifier" > SQL (DDL, DML, DCL Y TCL):  DDL (Data Definition Language): Permite crear y modificar la estructura de una base de datos. DML (Data Manipulation Language): Permite recuperar, almacenar, modificar, eliminar, insertar y actualizar datos de una base de datos. DCL (Data Control Language): Permite crear roles, permisos e integridad referencial, asÌ como el control al acceso a la base de datos. TCL (Transactional Control Language): Permite administrar diferentes transacciones que ocurren dentro de una base de datos. </p>   
+
+ 
+
+ <link rel="stylesheet" href="../css/Estilos.css">
 <div div style="text-align: center"; class= "Caja"> 
 <td>  <img id="Fotos" src="../img/SQL.jpg" width = "600" height = "300"/>  </td></div>
       
       
        <p class = "justifier" ><br>
-Ilustraci√≥n No.5  ‚Äú Sub-lenguajes SQL‚Äù  ‚Äì Recuperado de: http://soda.ustadistancia.edu.co/</br>
+IlustraciÛn No.5  ìLenguaje SQLî  ñ Recuperado de: https://i2.wp.com/fernandoarciniega.com/</br>
 </p>
 
       </div>
-      <div style="text-align: center;"> <iframe scrolling="auto" src="https://licenceiset.files.wordpress.com/2016/09/ch5-bd-2016.pdf" frameborder="0" height="800" width="800" align="left|right|middle" ></iframe> </div>
+      <div style="text-align: center;"> <iframe scrolling="auto" src="http://www.cartagena99.com/recursos/alumnos/apuntes/Manual-SQL1.pdf" frameborder="0" height="800" width="800" align="left|right|middle" ></iframe> </div>
+
+
 
 
 
@@ -133,32 +131,27 @@ Ilustraci√≥n No.5  ‚Äú Sub-lenguajes SQL‚Äù  ‚Äì Recuperado de: http://soda.usta
       <aside> <a href="https://www.unad.edu.co/"><img src="../img/unad.jpg" alt=""></a>
         <br>
         <br>
-        <a href="https://campus0a.unad.edu.co/campus0/login/index.php">Ingreso
-          al Campus Virtual</a> <br>
+        <button onclick="location.href='https://campus0a.unad.edu.co/campus0/login/index.php'">Ingreso
+          al Campus Virtual</button> <br>
         <br>
+        <h4>Programa de</h4>
+        <p>Tecnologia de desarrollo de software</p>
+        <h4>Codigo</h4>
+        <p>204226</p>
         <br>
-        <br>
-        <h4 class="programa">Programa de</h4>
-        <p class="programa">Tecnologia de desarrollo de software</p>
-        <h4 class="programa">Codigo</h4>
-        <p class="programa">204226</p>
-        <br>
-        <!-- Widget para mostrar Zona Horaria, fecha y hora -->
         <div style="text-align:center;padding:1em 0;">
           <h2><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/3687925"><span
 
                 style="color:gray;">Hora actual en</span><br>
-              Colombia</a></h2>
+              Cali, Colombia</a></h2>
           <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&amp;size=large&amp;timezone=America%2FBogota"
 
             seamless="" height="140" frameborder="0" width="100%"></iframe> </div>
         <br>
         <!--Widget -  Cronologia de Twitter UNAD -->
-        <div id="twitterUNAD"> <img src="../img/twitter-img.png"><p>Lo invitamos a que nos sigas y te enteres de las √∫ltimas noticias, eventos e informaci√≥n que proporciona la UNAD</p><a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD">Tweets
+        <div id="twitterUNAD"> <a class="twitter-timeline" href="https://twitter.com/UniversidadUNAD">Tweets
             by @UniversidadUNAD</a> </div>
         <br>
-
-        <!--Widget -  Contador de Visitas -->
         <h3>Visitas</h3>
         <img src="../img/visitas.png" alt=""> <a href="http://www.reliablecounter.com"
 
@@ -168,10 +161,8 @@ Ilustraci√≥n No.5  ‚Äú Sub-lenguajes SQL‚Äù  ‚Äì Recuperado de: http://soda.usta
         <a href="http://cuerpoaldente.com" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;"></a>
       </aside>
       <footer>
-        <p>Dise√±o de sitios web grupo 301122_34 periodo 1-2018 -- Obra publicada con
-        <br>
-        <a href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a>
-        </p>
+        <p>Copyright © DiseÒo de sitios web grupo 301122_34 periodo 1-2018 --
+          Todos los derechos reservados</p>
       </footer>
     </main>
   </body>
