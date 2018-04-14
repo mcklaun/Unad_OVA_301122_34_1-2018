@@ -194,7 +194,6 @@ aside img{
 .programa{
 	margin: 0;
 }
-
 #contador{
     width: 7.5rem;
     height: 2.5rem;
@@ -203,21 +202,18 @@ aside img{
 {
   text-align: justify;
 }
-
 .db_img{
 	margin: 0;
 	text-align: center;
 }
-
 button{
-    padding: 10px;
-    font-weight: 400;
-    color: #ffffff;
-    background-color: #1883ba;
-    border-radius: 5px;
-    background: rgba(0,88,181,1);
+  padding: 10px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #1883ba;
+  border-radius: 5px;
+  background: rgba(0,88,181,1);
 	border-radius: 5px;
-
 }
 button:hover {
  color:rgba(255,255,255,1);;
