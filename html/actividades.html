@@ -93,7 +93,8 @@
 
             src="../svg/flickr.svg" alt="Flickr UNAD"></a> <a href="https://www.instagram.com/universidadunad/"><img
 
-            src="../svg/instagram.svg" alt="Instagram UNAD"></a> </div>
+            src="../svg/instagram.svg" alt="Instagram UNAD"></a>
+      </div>
       <section id="principal">
         <h2>Actividades</h2>
         <p>Apreciado (a) estudiante, le doy la bienvenida al Objeto Virtual de
@@ -114,26 +115,28 @@
 
             onclick="plusDivs(-1)">❮</button> <button class="w3-button w3-black w3-display-right"
 
-            onclick="plusDivs(1)">❯</button> </div>
+            onclick="plusDivs(1)">❯</button>
+        </div>
         <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+          var slideIndex = 1;
+          showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script> <ul>
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+            }
+        </script>
+        <ul>
           <li><a href="https://es.educaplay.com/es/recursoseducativos/3630070/html5/actividad_1.htm#%21"
 
               target="_blank">Actividad 1, Sopa de letras</a></li>
